@@ -1,0 +1,22 @@
+.select-input-container{
+    width: 100%;
+    background: url(../../../../assets/icons/dropdown.svg) no-repeat 93% center;
+    height: 54px; 
+    border: 1px solid #E4E9EF;
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+}
+
+select.select-input{
+    appearance:none;
+    background: transparent;
+    /* -webkit-appearance: none; */
+    padding: 0 1rem;
+    width: 100%;
+    border: 0;
+    height: 54px;
+    border-radius: 12px;
+    left: 0;
+    top: 0;
+}

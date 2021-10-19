@@ -1,0 +1,39 @@
+.step-container{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    cursor: default;
+}
+
+.step-num{
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.stepper-title{
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+#stepper{
+    display: flex;
+}
+
+#mobile-stepper{
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    #mobile-stepper{
+        display: block;
+    }
+
+    #stepper{
+        display: none;
+    }
+}

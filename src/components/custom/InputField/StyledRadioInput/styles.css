@@ -1,0 +1,9 @@
+.radio-option{
+    width: fit-content;
+    padding: 0.7rem 1.3rem;
+    color: var(--pry-text-color);
+    border-radius: 13px;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    font-size: 14px;
+}
